@@ -1,6 +1,6 @@
 #+title: Emacs ChatGPT
-#+LAST_MODIFIED: [2024-06-24 Mon 11:32]
-#+HTML: <img src="./logo.png" width="256px" align="right"/>
+#+HTML: <img src="./logo.png" width="80px" align="right"/>
+#+LAST_MODIFIED: [2024-06-24 Mon 11:33]
 
 This package provides a chat interface to OpenAI via its chat completions API.
 For a more sofisticated package see [[https://github.com/SFTtech/emacs-elaiza][ELAIZA]].
@@ -18,5 +18,5 @@ machine api.openai.com port https login chatgpt password <your-api-key>
 #+end_example
 
 * Usage
-#+HTML: <img src="./demo.png" width="700" align="right"/>
 You can prompt the model with =M-x chatgpt= and chat in the =*ChatGPT*= buffer using =C-c RET=.
+#+HTML: <img src="./demo.png" width="800" align="center"/>
