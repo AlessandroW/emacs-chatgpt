@@ -1,0 +1,22 @@
+#+title: Emacs ChatGPT
+#+LAST_MODIFIED: [2024-06-24 Mon 11:31]
+#+HTML: <img src="./logo.png" width="256px"/>
+
+This package provides a chat interface to OpenAI via its chat completions API.
+For a more sofisticated package see [[https://github.com/SFTtech/emacs-elaiza][ELAIZA]].
+
+* Installation
+** Doom Emacs
+Add the following to your =packages.el=
+#+begin_src emacs-lisp
+(package! chatgpt :recipe (:host github :repo "AlessandroW/emacs-chatgpt" :branch "main"))
+#+end_src
+
+Store your API key either in =~/.authinfo.gpg= or ~chatgpt-api-key~.
+#+begin_example ~/.authinfo.gpg
+machine api.openai.com port https login chatgpt password <your-api-key>
+#+end_example
+
+* Usage
+#+HTML: <img src="./demo.png" width="256px"/>
+You can prompt the model with =M-x chatgpt= and chat in the =*ChatGPT*= buffer using =C-c RET=.
