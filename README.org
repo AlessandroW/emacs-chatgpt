@@ -1,9 +1,9 @@
 #+title: Emacs ChatGPT
 #+HTML: <img src="./logo.png" width="80px" align="right"/>
-#+LAST_MODIFIED: [2024-06-24 Mon 11:33]
+#+LAST_MODIFIED: [2024-06-24 Mon 11:42]
 
 This package provides a chat interface to OpenAI via its chat completions API.
-For a more sofisticated package see [[https://github.com/SFTtech/emacs-elaiza][ELAIZA]].
+For a more sophisticated package see [[https://github.com/SFTtech/emacs-elaiza][ELAIZA]].
 
 * Installation
 ** Doom Emacs
